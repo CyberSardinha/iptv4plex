@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#cenas do caralho
 if [ ! -f /app/proxysettings.json ]; then
   echo "{\"port\": $PORT, \"m3u8url\": \"$M3U8URLLIST\", \"tunerlimits\": \"$TUNERLIMITSLIST\", \"xmlurl\": \"$XMLURLLIST\", \"ip\": \"$IPADDRESS\"}" > /app/proxysettings.json
 fi
